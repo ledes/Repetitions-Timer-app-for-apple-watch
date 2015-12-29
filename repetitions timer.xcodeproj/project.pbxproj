@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EB9594F1C32972000F7BE5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB9594E1C32972000F7BE5F /* AppDelegate.swift */; };
+		6EB959511C32972000F7BE5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB959501C32972000F7BE5F /* ViewController.swift */; };
+		6EB959541C32972000F7BE5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB959521C32972000F7BE5F /* Main.storyboard */; };
+		6EB959561C32972000F7BE5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB959551C32972000F7BE5F /* Assets.xcassets */; };
+		6EB959591C32972000F7BE5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB959571C32972000F7BE5F /* LaunchScreen.storyboard */; };
+		6EB959641C32972000F7BE5F /* repetitions_timerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB959631C32972000F7BE5F /* repetitions_timerTests.swift */; };
+		6EB9596F1C32972000F7BE5F /* repetitions_timerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB9596E1C32972000F7BE5F /* repetitions_timerUITests.swift */; };
+		6EB959741C32972000F7BE5F /* repetitions timer WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6EB959731C32972000F7BE5F /* repetitions timer WatchKit App.app */; };
+		6EB9597A1C32972000F7BE5F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB959781C32972000F7BE5F /* Interface.storyboard */; };
+		6EB9597C1C32972000F7BE5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB9597B1C32972000F7BE5F /* Assets.xcassets */; };
+		6EB959831C32972000F7BE5F /* repetitions timer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6EB959821C32972000F7BE5F /* repetitions timer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6EB9598A1C32972000F7BE5F /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB959891C32972000F7BE5F /* InterfaceController.swift */; };
+		6EB9598C1C32972000F7BE5F /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB9598B1C32972000F7BE5F /* ExtensionDelegate.swift */; };
+		6EB9598E1C32972000F7BE5F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB9598D1C32972000F7BE5F /* NotificationController.swift */; };
+		6EB959901C32972000F7BE5F /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB9598F1C32972000F7BE5F /* GlanceController.swift */; };
+		6EB959921C32972000F7BE5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB959911C32972000F7BE5F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EB959601C32972000F7BE5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB959431C32972000F7BE5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EB9594A1C32972000F7BE5F;
+			remoteInfo = "repetitions timer";
+		};
+		6EB9596B1C32972000F7BE5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB959431C32972000F7BE5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EB9594A1C32972000F7BE5F;
+			remoteInfo = "repetitions timer";
+		};
+		6EB959751C32972000F7BE5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB959431C32972000F7BE5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EB959721C32972000F7BE5F;
+			remoteInfo = "repetitions timer WatchKit App";
+		};
+		6EB959841C32972000F7BE5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB959431C32972000F7BE5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EB959811C32972000F7BE5F;
+			remoteInfo = "repetitions timer WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6EB959991C32972000F7BE5F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6EB959831C32972000F7BE5F /* repetitions timer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB9599D1C32972000F7BE5F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6EB959741C32972000F7BE5F /* repetitions timer WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6EB9594B1C32972000F7BE5F /* repetitions timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "repetitions timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB9594E1C32972000F7BE5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EB959501C32972000F7BE5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6EB959531C32972000F7BE5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EB959551C32972000F7BE5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EB959581C32972000F7BE5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EB9595A1C32972000F7BE5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB9595F1C32972000F7BE5F /* repetitions timerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "repetitions timerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB959631C32972000F7BE5F /* repetitions_timerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repetitions_timerTests.swift; sourceTree = "<group>"; };
+		6EB959651C32972000F7BE5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB9596A1C32972000F7BE5F /* repetitions timerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "repetitions timerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB9596E1C32972000F7BE5F /* repetitions_timerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repetitions_timerUITests.swift; sourceTree = "<group>"; };
+		6EB959701C32972000F7BE5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB959731C32972000F7BE5F /* repetitions timer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "repetitions timer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB959791C32972000F7BE5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		6EB9597B1C32972000F7BE5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EB9597D1C32972000F7BE5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB959821C32972000F7BE5F /* repetitions timer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "repetitions timer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB959881C32972000F7BE5F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		6EB959891C32972000F7BE5F /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		6EB9598B1C32972000F7BE5F /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		6EB9598D1C32972000F7BE5F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		6EB9598F1C32972000F7BE5F /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		6EB959911C32972000F7BE5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EB959931C32972000F7BE5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EB959481C32972000F7BE5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB9595C1C32972000F7BE5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB959671C32972000F7BE5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB9597F1C32972000F7BE5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EB959421C32972000F7BE5F = {
+			isa = PBXGroup;
+			children = (
+				6EB9594D1C32972000F7BE5F /* repetitions timer */,
+				6EB959621C32972000F7BE5F /* repetitions timerTests */,
+				6EB9596D1C32972000F7BE5F /* repetitions timerUITests */,
+				6EB959771C32972000F7BE5F /* repetitions timer WatchKit App */,
+				6EB959861C32972000F7BE5F /* repetitions timer WatchKit Extension */,
+				6EB9594C1C32972000F7BE5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EB9594C1C32972000F7BE5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EB9594B1C32972000F7BE5F /* repetitions timer.app */,
+				6EB9595F1C32972000F7BE5F /* repetitions timerTests.xctest */,
+				6EB9596A1C32972000F7BE5F /* repetitions timerUITests.xctest */,
+				6EB959731C32972000F7BE5F /* repetitions timer WatchKit App.app */,
+				6EB959821C32972000F7BE5F /* repetitions timer WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EB9594D1C32972000F7BE5F /* repetitions timer */ = {
+			isa = PBXGroup;
+			children = (
+				6EB9594E1C32972000F7BE5F /* AppDelegate.swift */,
+				6EB959501C32972000F7BE5F /* ViewController.swift */,
+				6EB959521C32972000F7BE5F /* Main.storyboard */,
+				6EB959551C32972000F7BE5F /* Assets.xcassets */,
+				6EB959571C32972000F7BE5F /* LaunchScreen.storyboard */,
+				6EB9595A1C32972000F7BE5F /* Info.plist */,
+			);
+			path = "repetitions timer";
+			sourceTree = "<group>";
+		};
+		6EB959621C32972000F7BE5F /* repetitions timerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EB959631C32972000F7BE5F /* repetitions_timerTests.swift */,
+				6EB959651C32972000F7BE5F /* Info.plist */,
+			);
+			path = "repetitions timerTests";
+			sourceTree = "<group>";
+		};
+		6EB9596D1C32972000F7BE5F /* repetitions timerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EB9596E1C32972000F7BE5F /* repetitions_timerUITests.swift */,
+				6EB959701C32972000F7BE5F /* Info.plist */,
+			);
+			path = "repetitions timerUITests";
+			sourceTree = "<group>";
+		};
+		6EB959771C32972000F7BE5F /* repetitions timer WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				6EB959781C32972000F7BE5F /* Interface.storyboard */,
+				6EB9597B1C32972000F7BE5F /* Assets.xcassets */,
+				6EB9597D1C32972000F7BE5F /* Info.plist */,
+			);
+			path = "repetitions timer WatchKit App";
+			sourceTree = "<group>";
+		};
+		6EB959861C32972000F7BE5F /* repetitions timer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6EB959891C32972000F7BE5F /* InterfaceController.swift */,
+				6EB9598B1C32972000F7BE5F /* ExtensionDelegate.swift */,
+				6EB9598D1C32972000F7BE5F /* NotificationController.swift */,
+				6EB9598F1C32972000F7BE5F /* GlanceController.swift */,
+				6EB959911C32972000F7BE5F /* Assets.xcassets */,
+				6EB959931C32972000F7BE5F /* Info.plist */,
+				6EB959871C32972000F7BE5F /* Supporting Files */,
+			);
+			path = "repetitions timer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		6EB959871C32972000F7BE5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EB959881C32972000F7BE5F /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EB9594A1C32972000F7BE5F /* repetitions timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB9599E1C32972000F7BE5F /* Build configuration list for PBXNativeTarget "repetitions timer" */;
+			buildPhases = (
+				6EB959471C32972000F7BE5F /* Sources */,
+				6EB959481C32972000F7BE5F /* Frameworks */,
+				6EB959491C32972000F7BE5F /* Resources */,
+				6EB9599D1C32972000F7BE5F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EB959761C32972000F7BE5F /* PBXTargetDependency */,
+			);
+			name = "repetitions timer";
+			productName = "repetitions timer";
+			productReference = 6EB9594B1C32972000F7BE5F /* repetitions timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EB9595E1C32972000F7BE5F /* repetitions timerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB959A11C32972000F7BE5F /* Build configuration list for PBXNativeTarget "repetitions timerTests" */;
+			buildPhases = (
+				6EB9595B1C32972000F7BE5F /* Sources */,
+				6EB9595C1C32972000F7BE5F /* Frameworks */,
+				6EB9595D1C32972000F7BE5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EB959611C32972000F7BE5F /* PBXTargetDependency */,
+			);
+			name = "repetitions timerTests";
+			productName = "repetitions timerTests";
+			productReference = 6EB9595F1C32972000F7BE5F /* repetitions timerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EB959691C32972000F7BE5F /* repetitions timerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB959A41C32972000F7BE5F /* Build configuration list for PBXNativeTarget "repetitions timerUITests" */;
+			buildPhases = (
+				6EB959661C32972000F7BE5F /* Sources */,
+				6EB959671C32972000F7BE5F /* Frameworks */,
+				6EB959681C32972000F7BE5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EB9596C1C32972000F7BE5F /* PBXTargetDependency */,
+			);
+			name = "repetitions timerUITests";
+			productName = "repetitions timerUITests";
+			productReference = 6EB9596A1C32972000F7BE5F /* repetitions timerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6EB959721C32972000F7BE5F /* repetitions timer WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB9599A1C32972000F7BE5F /* Build configuration list for PBXNativeTarget "repetitions timer WatchKit App" */;
+			buildPhases = (
+				6EB959711C32972000F7BE5F /* Resources */,
+				6EB959991C32972000F7BE5F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EB959851C32972000F7BE5F /* PBXTargetDependency */,
+			);
+			name = "repetitions timer WatchKit App";
+			productName = "repetitions timer WatchKit App";
+			productReference = 6EB959731C32972000F7BE5F /* repetitions timer WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		6EB959811C32972000F7BE5F /* repetitions timer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB959961C32972000F7BE5F /* Build configuration list for PBXNativeTarget "repetitions timer WatchKit Extension" */;
+			buildPhases = (
+				6EB9597E1C32972000F7BE5F /* Sources */,
+				6EB9597F1C32972000F7BE5F /* Frameworks */,
+				6EB959801C32972000F7BE5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "repetitions timer WatchKit Extension";
+			productName = "repetitions timer WatchKit Extension";
+			productReference = 6EB959821C32972000F7BE5F /* repetitions timer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EB959431C32972000F7BE5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Pablo;
+				TargetAttributes = {
+					6EB9594A1C32972000F7BE5F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					6EB9595E1C32972000F7BE5F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6EB9594A1C32972000F7BE5F;
+					};
+					6EB959691C32972000F7BE5F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6EB9594A1C32972000F7BE5F;
+					};
+					6EB959721C32972000F7BE5F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					6EB959811C32972000F7BE5F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 6EB959461C32972000F7BE5F /* Build configuration list for PBXProject "repetitions timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EB959421C32972000F7BE5F;
+			productRefGroup = 6EB9594C1C32972000F7BE5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EB9594A1C32972000F7BE5F /* repetitions timer */,
+				6EB9595E1C32972000F7BE5F /* repetitions timerTests */,
+				6EB959691C32972000F7BE5F /* repetitions timerUITests */,
+				6EB959721C32972000F7BE5F /* repetitions timer WatchKit App */,
+				6EB959811C32972000F7BE5F /* repetitions timer WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EB959491C32972000F7BE5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB959591C32972000F7BE5F /* LaunchScreen.storyboard in Resources */,
+				6EB959561C32972000F7BE5F /* Assets.xcassets in Resources */,
+				6EB959541C32972000F7BE5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB9595D1C32972000F7BE5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB959681C32972000F7BE5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB959711C32972000F7BE5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB9597C1C32972000F7BE5F /* Assets.xcassets in Resources */,
+				6EB9597A1C32972000F7BE5F /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB959801C32972000F7BE5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB959921C32972000F7BE5F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EB959471C32972000F7BE5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB959511C32972000F7BE5F /* ViewController.swift in Sources */,
+				6EB9594F1C32972000F7BE5F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB9595B1C32972000F7BE5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB959641C32972000F7BE5F /* repetitions_timerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB959661C32972000F7BE5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB9596F1C32972000F7BE5F /* repetitions_timerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB9597E1C32972000F7BE5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB9598E1C32972000F7BE5F /* NotificationController.swift in Sources */,
+				6EB9598C1C32972000F7BE5F /* ExtensionDelegate.swift in Sources */,
+				6EB9598A1C32972000F7BE5F /* InterfaceController.swift in Sources */,
+				6EB959901C32972000F7BE5F /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EB959611C32972000F7BE5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EB9594A1C32972000F7BE5F /* repetitions timer */;
+			targetProxy = 6EB959601C32972000F7BE5F /* PBXContainerItemProxy */;
+		};
+		6EB9596C1C32972000F7BE5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EB9594A1C32972000F7BE5F /* repetitions timer */;
+			targetProxy = 6EB9596B1C32972000F7BE5F /* PBXContainerItemProxy */;
+		};
+		6EB959761C32972000F7BE5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EB959721C32972000F7BE5F /* repetitions timer WatchKit App */;
+			targetProxy = 6EB959751C32972000F7BE5F /* PBXContainerItemProxy */;
+		};
+		6EB959851C32972000F7BE5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EB959811C32972000F7BE5F /* repetitions timer WatchKit Extension */;
+			targetProxy = 6EB959841C32972000F7BE5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EB959521C32972000F7BE5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EB959531C32972000F7BE5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EB959571C32972000F7BE5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EB959581C32972000F7BE5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6EB959781C32972000F7BE5F /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EB959791C32972000F7BE5F /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EB959941C32972000F7BE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EB959951C32972000F7BE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EB959971C32972000F7BE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "repetitions timer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PabloLedesma.repetitions-timer.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		6EB959981C32972000F7BE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "repetitions timer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PabloLedesma.repetitions-timer.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		6EB9599B1C32972000F7BE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = repetitions_timer_WatchKit_Extension;
+				INFOPLIST_FILE = "repetitions timer WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "PabloLedesma.repetitions-timer.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		6EB9599C1C32972000F7BE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = repetitions_timer_WatchKit_Extension;
+				INFOPLIST_FILE = "repetitions timer WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "PabloLedesma.repetitions-timer.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		6EB9599F1C32972000F7BE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "repetitions timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PabloLedesma.repetitions-timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6EB959A01C32972000F7BE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "repetitions timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PabloLedesma.repetitions-timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6EB959A21C32972000F7BE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "repetitions timerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PabloLedesma.repetitions-timerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/repetitions timer.app/repetitions timer";
+			};
+			name = Debug;
+		};
+		6EB959A31C32972000F7BE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "repetitions timerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PabloLedesma.repetitions-timerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/repetitions timer.app/repetitions timer";
+			};
+			name = Release;
+		};
+		6EB959A51C32972000F7BE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "repetitions timerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PabloLedesma.repetitions-timerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "repetitions timer";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6EB959A61C32972000F7BE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "repetitions timerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PabloLedesma.repetitions-timerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "repetitions timer";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EB959461C32972000F7BE5F /* Build configuration list for PBXProject "repetitions timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB959941C32972000F7BE5F /* Debug */,
+				6EB959951C32972000F7BE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB959961C32972000F7BE5F /* Build configuration list for PBXNativeTarget "repetitions timer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB959971C32972000F7BE5F /* Debug */,
+				6EB959981C32972000F7BE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6EB9599A1C32972000F7BE5F /* Build configuration list for PBXNativeTarget "repetitions timer WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB9599B1C32972000F7BE5F /* Debug */,
+				6EB9599C1C32972000F7BE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6EB9599E1C32972000F7BE5F /* Build configuration list for PBXNativeTarget "repetitions timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB9599F1C32972000F7BE5F /* Debug */,
+				6EB959A01C32972000F7BE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6EB959A11C32972000F7BE5F /* Build configuration list for PBXNativeTarget "repetitions timerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB959A21C32972000F7BE5F /* Debug */,
+				6EB959A31C32972000F7BE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6EB959A41C32972000F7BE5F /* Build configuration list for PBXNativeTarget "repetitions timerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB959A51C32972000F7BE5F /* Debug */,
+				6EB959A61C32972000F7BE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EB959431C32972000F7BE5F /* Project object */;
+}
