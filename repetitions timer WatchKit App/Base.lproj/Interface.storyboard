@@ -8,7 +8,32 @@
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="repetitions_timer_WatchKit_App" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="repetitions_timer_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="107" height="19.5" alignment="left" text="Repetitions Timer" textAlignment="left" minimumScaleFactor="0.29999999999999999" id="tTT-7y-WAU">
+                            <color key="textColor" red="1" green="0.9276137209483496" blue="0.60268633748130385" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="boldSystem" pointSize="16"/>
+                            <variation key="device=watch38mm">
+                                <fontDescription key="font" type="boldSystem" pointSize="12"/>
+                            </variation>
+                            <variation key="device=watch42mm">
+                                <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                            </variation>
+                        </label>
+                        <button width="1" alignment="left" title="30s" id="wTT-Xa-3eS">
+                            <color key="titleColor" red="1" green="0.97113048284289472" blue="0.97891326148186286" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="1" green="0.42907111768944528" blue="0.13805145173533595" alpha="1" colorSpace="calibratedRGB"/>
+                        </button>
+                        <button width="1" alignment="left" title="60s" id="EDK-mJ-ml0">
+                            <color key="titleColor" red="1" green="0.97113048284289472" blue="0.97891326148186286" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="1" green="0.42907111768944528" blue="0.13805145173533595" alpha="1" colorSpace="calibratedRGB"/>
+                        </button>
+                        <button width="1" alignment="left" title="Custom" id="gRE-HN-qwH">
+                            <color key="titleColor" red="1" green="0.97113048284289472" blue="0.97891326148186286" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="1" green="0.42907111768944528" blue="0.13805145173533595" alpha="1" colorSpace="calibratedRGB"/>
+                        </button>
+                    </items>
+                </controller>
             </objects>
             <point key="canvasLocation" x="235" y="347"/>
         </scene>
