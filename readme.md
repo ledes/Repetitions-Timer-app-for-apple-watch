@@ -14,7 +14,6 @@ Apple Watch app to control the time of your repetitions while you exercise.
   * The app measures the user's heart beat while using the app.
   * Once the user selects the duration, the app should display a menu to select the number of repetitions and a big Start button
   * The app should display a message once the exercise is done.
-  * Setting button. User is able to change the value of the duration of the breaks and disable pulse measurement 
   * The custom button will display:
     1. Number of repetitions
     2. Duration of breaks 
@@ -22,8 +21,8 @@ Apple Watch app to control the time of your repetitions while you exercise.
      
 
 ####Dream features:
- * User can select the number of repetitions and breaks
- * User can change the duration of the breaks
+ * Setting button. User is able to change the value of the duration of the breaks and disable pulse measurement 
+ * 
 ### Wireframing
 
 ![Image](http://i.imgur.com/WqDVtTz.jpg)
