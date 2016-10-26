@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E0F19701C7B957E00EB85B9 /* thirtyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F196F1C7B957E00EB85B9 /* thirtyController.swift */; };
+		6E0F19721C7BE85300EB85B9 /* fortyfiveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F19711C7BE85300EB85B9 /* fortyfiveController.swift */; };
+		6E0F19741C7BE86300EB85B9 /* sixtyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F19731C7BE86300EB85B9 /* sixtyController.swift */; };
+		6E0F19761C7BE86E00EB85B9 /* customController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F19751C7BE86E00EB85B9 /* customController.swift */; };
+		6E597B6D1C7CD00F001D3CF6 /* customRepetition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E597B6C1C7CD00F001D3CF6 /* customRepetition.swift */; };
 		6EB9594F1C32972000F7BE5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB9594E1C32972000F7BE5F /* AppDelegate.swift */; };
 		6EB959511C32972000F7BE5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB959501C32972000F7BE5F /* ViewController.swift */; };
 		6EB959541C32972000F7BE5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB959521C32972000F7BE5F /* Main.storyboard */; };
@@ -83,6 +88,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6E0F196F1C7B957E00EB85B9 /* thirtyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirtyController.swift; sourceTree = "<group>"; };
+		6E0F19711C7BE85300EB85B9 /* fortyfiveController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fortyfiveController.swift; sourceTree = "<group>"; };
+		6E0F19731C7BE86300EB85B9 /* sixtyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sixtyController.swift; sourceTree = "<group>"; };
+		6E0F19751C7BE86E00EB85B9 /* customController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customController.swift; sourceTree = "<group>"; };
+		6E597B6C1C7CD00F001D3CF6 /* customRepetition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customRepetition.swift; sourceTree = "<group>"; };
 		6EB9594B1C32972000F7BE5F /* repetitions timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "repetitions timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB9594E1C32972000F7BE5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EB959501C32972000F7BE5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -216,6 +226,11 @@
 			isa = PBXGroup;
 			children = (
 				6EB959891C32972000F7BE5F /* InterfaceController.swift */,
+				6E0F196F1C7B957E00EB85B9 /* thirtyController.swift */,
+				6E0F19711C7BE85300EB85B9 /* fortyfiveController.swift */,
+				6E0F19731C7BE86300EB85B9 /* sixtyController.swift */,
+				6E0F19751C7BE86E00EB85B9 /* customController.swift */,
+				6E597B6C1C7CD00F001D3CF6 /* customRepetition.swift */,
 				6EB9598B1C32972000F7BE5F /* ExtensionDelegate.swift */,
 				6EB9598D1C32972000F7BE5F /* NotificationController.swift */,
 				6EB9598F1C32972000F7BE5F /* GlanceController.swift */,
@@ -355,9 +370,11 @@
 					};
 					6EB959721C32972000F7BE5F = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = LHWDQWJ6S6;
 					};
 					6EB959811C32972000F7BE5F = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = LHWDQWJ6S6;
 					};
 				};
 			};
@@ -457,9 +474,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E0F19761C7BE86E00EB85B9 /* customController.swift in Sources */,
 				6EB9598E1C32972000F7BE5F /* NotificationController.swift in Sources */,
+				6E0F19741C7BE86300EB85B9 /* sixtyController.swift in Sources */,
+				6E597B6D1C7CD00F001D3CF6 /* customRepetition.swift in Sources */,
 				6EB9598C1C32972000F7BE5F /* ExtensionDelegate.swift in Sources */,
 				6EB9598A1C32972000F7BE5F /* InterfaceController.swift in Sources */,
+				6E0F19701C7B957E00EB85B9 /* thirtyController.swift in Sources */,
+				6E0F19721C7BE85300EB85B9 /* fortyfiveController.swift in Sources */,
 				6EB959901C32972000F7BE5F /* GlanceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -603,10 +625,13 @@
 		6EB959971C32972000F7BE5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "repetitions timer WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "PabloLedesma.repetitions-timer.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -617,10 +642,13 @@
 		6EB959981C32972000F7BE5F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "repetitions timer WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "PabloLedesma.repetitions-timer.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -632,11 +660,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = repetitions_timer_WatchKit_Extension;
 				INFOPLIST_FILE = "repetitions timer WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "PabloLedesma.repetitions-timer.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -648,11 +679,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = repetitions_timer_WatchKit_Extension;
 				INFOPLIST_FILE = "repetitions timer WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "PabloLedesma.repetitions-timer.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -757,6 +791,7 @@
 				6EB959981C32972000F7BE5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EB9599A1C32972000F7BE5F /* Build configuration list for PBXNativeTarget "repetitions timer WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -765,6 +800,7 @@
 				6EB9599C1C32972000F7BE5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EB9599E1C32972000F7BE5F /* Build configuration list for PBXNativeTarget "repetitions timer" */ = {
 			isa = XCConfigurationList;
@@ -773,6 +809,7 @@
 				6EB959A01C32972000F7BE5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EB959A11C32972000F7BE5F /* Build configuration list for PBXNativeTarget "repetitions timerTests" */ = {
 			isa = XCConfigurationList;
@@ -781,6 +818,7 @@
 				6EB959A31C32972000F7BE5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EB959A41C32972000F7BE5F /* Build configuration list for PBXNativeTarget "repetitions timerUITests" */ = {
 			isa = XCConfigurationList;
@@ -789,6 +827,7 @@
 				6EB959A61C32972000F7BE5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

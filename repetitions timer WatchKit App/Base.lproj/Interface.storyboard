@@ -21,72 +21,210 @@
                             </variation>
                         </label>
                         <separator alignment="left" id="qtn-5s-Ele"/>
-                        <button width="1" alignment="left" title="30s" id="wTT-Xa-3eS">
+                        <button width="1" alignment="left" title="3 x 30s" id="wTT-Xa-3eS">
                             <color key="titleColor" red="1" green="0.97113048284289472" blue="0.97891326148186286" alpha="1" colorSpace="calibratedRGB"/>
-                            <color key="backgroundColor" red="1" green="0.42907111768944528" blue="0.13805145173533595" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.15686274509803921" green="0.53333333333333333" blue="0.38039215686274508" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="hxC-Mw-htF" kind="push" id="TPr-qJ-EhN"/>
+                            </connections>
                         </button>
-                        <button width="1" alignment="left" title="45s" id="EDK-mJ-ml0">
+                        <button width="1" alignment="left" title="3 x 45s" id="EDK-mJ-ml0">
                             <color key="titleColor" red="1" green="0.97113048284289472" blue="0.97891326148186286" alpha="1" colorSpace="calibratedRGB"/>
-                            <color key="backgroundColor" red="1" green="0.42907111768944528" blue="0.13805145173533595" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.15686274509803921" green="0.53333333333333333" blue="0.38039215686274508" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="Lci-EL-MgW" kind="push" id="0gw-94-6w6"/>
+                            </connections>
                         </button>
-                        <button width="1" alignment="left" title="60s" id="UnW-Jh-qVB">
+                        <button width="1" alignment="left" title="3 x 60s" id="UnW-Jh-qVB">
                             <color key="titleColor" red="1" green="0.97113048280000003" blue="0.97891326150000002" alpha="1" colorSpace="calibratedRGB"/>
-                            <color key="backgroundColor" red="1" green="0.4290711177" blue="0.13805145169999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.15686274509803921" green="0.53333333333333333" blue="0.38039215686274508" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="AYa-wr-fKn" kind="push" id="Skv-n4-kM5"/>
+                            </connections>
                         </button>
-                        <group width="132" alignment="left" id="FVi-jM-gtF">
-                            <items>
-                                <button width="64" alignment="left" title="Custom" id="zoQ-Mx-fxh">
-                                    <color key="titleColor" red="1" green="0.97113048280000003" blue="0.97891326150000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="backgroundColor" red="1" green="0.4290711177" blue="0.13805145169999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    <fontDescription key="font" type="system" pointSize="13"/>
-                                </button>
-                                <button width="69" alignment="left" title="Settings" id="Yhp-wU-iMC">
-                                    <color key="titleColor" red="1" green="0.97113048280000003" blue="0.97891326150000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="backgroundColor" red="1" green="0.4290711177" blue="0.13805145169999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    <fontDescription key="font" type="system" pointSize="13"/>
-                                </button>
-                            </items>
-                        </group>
+                        <button width="1" alignment="left" title="Custom" id="IdR-72-cQE">
+                            <color key="titleColor" red="1" green="0.97113048280000003" blue="0.97891326150000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.15686274510000001" green="0.53333333329999999" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="nKI-57-Ck9" kind="push" id="rz0-Gz-RMQ"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
             <point key="canvasLocation" x="235" y="345.5"/>
         </scene>
-        <!--Glance Interface Controller-->
-        <scene sceneID="BOz-TT-tkC">
+        <!--Custom Controller-->
+        <scene sceneID="Xhi-Pc-HdK">
             <objects>
-                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController" customModule="repetitions_timer_WatchKit_App" customModuleProvider="target">
+                <controller id="nKI-57-Ck9" customClass="CustomController" customModule="repetitions_timer_WatchKit_Extension">
                     <items>
-                        <group alignment="left" id="t8f-Gd-c4y"/>
-                        <group alignment="left" id="uCw-4Q-Ouw"/>
+                        <group width="1" height="76" alignment="center" contentMode="top" radius="0.0" id="IXH-9r-NcZ">
+                            <items>
+                                <picker width="49" height="71" alignment="left" verticalAlignment="center" focusStyle="sequence" indicatorMode="shownWhileFocused" id="EDz-kz-tJc">
+                                    <connections>
+                                        <action selector="pickedRepetition:" destination="nKI-57-Ck9" id="cEQ-fp-arF"/>
+                                    </connections>
+                                </picker>
+                                <label alignment="left" verticalAlignment="center" text="X" id="exT-O6-nTP"/>
+                                <picker width="70" height="71" alignment="left" verticalAlignment="center" focusStyle="sequence" indicatorMode="shownWhileFocused" id="OPd-J6-690">
+                                    <connections>
+                                        <action selector="pickedDurations:" destination="nKI-57-Ck9" id="tlG-My-QZR"/>
+                                    </connections>
+                                </picker>
+                            </items>
+                        </group>
+                        <group width="130" height="47" alignment="left" id="pjP-2m-j1c">
+                            <items>
+                                <label height="19.5" alignment="left" verticalAlignment="center" text="Breaks:" textAlignment="center" id="BLR-Gq-JUq"/>
+                                <picker width="65" height="42" alignment="right" verticalAlignment="center" focusStyle="sequence" indicatorMode="shownWhileFocused" id="F2f-7a-xiY">
+                                    <connections>
+                                        <action selector="pickedBreaks:" destination="nKI-57-Ck9" id="5bv-eL-zEi"/>
+                                    </connections>
+                                </picker>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Set" id="WHv-oe-APg">
+                            <color key="backgroundColor" red="0.15686274510000001" green="0.53333333329999999" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="setData" destination="nKI-57-Ck9" id="yKf-kf-2T2"/>
+                                <segue destination="Q54-ZR-Vno" kind="push" identifier="hierarchical" id="Odm-FB-VMU"/>
+                            </connections>
+                        </button>
                     </items>
-                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
-                </glanceController>
-            </objects>
-            <point key="canvasLocation" x="235" y="672"/>
-        </scene>
-        <!--Static Notification Interface Controller-->
-        <scene sceneID="AEw-b0-oYE">
-            <objects>
-                <notificationController id="YCC-NB-fut">
-                    <items>
-                        <label alignment="left" text="Alert Label" id="XkS-y5-khE"/>
-                    </items>
-                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
                     <connections>
-                        <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
-                        <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
+                        <outlet property="breaksPicker" destination="F2f-7a-xiY" id="7Aw-da-2qt"/>
+                        <outlet property="durationPicker" destination="OPd-J6-690" id="UqX-0l-Ofd"/>
+                        <outlet property="repetitionsPicker" destination="EDz-kz-tJc" id="h79-74-78Q"/>
                     </connections>
-                </notificationController>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="235" y="1001"/>
+            <point key="canvasLocation" x="12" y="732"/>
         </scene>
-        <!--Notification Controller-->
-        <scene sceneID="KIl-fV-djm">
+        <!--Custom Repetition Controller-->
+        <scene sceneID="gdw-NR-HPw">
             <objects>
-                <controller id="gdX-wl-uQE" customClass="NotificationController" customModule="repetitions_timer_WatchKit_App" customModuleProvider="target"/>
+                <controller id="Q54-ZR-Vno" customClass="CustomRepetitionController" customModule="repetitions_timer_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Ready...." id="2Uw-0E-SwB" userLabel="fortyRest">
+                            <color key="textColor" red="0.047058823530000002" green="1" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleTitle1"/>
+                        </label>
+                        <group width="106" height="93" alignment="center" backgroundImage="custom100" id="wu5-sG-7vr">
+                            <items>
+                                <label width="76" height="45.5" alignment="center" verticalAlignment="center" text="120" textAlignment="center" id="Vtk-JK-7iH">
+                                    <color key="textColor" red="0.047058823530000002" green="1" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="40"/>
+                                </label>
+                            </items>
+                        </group>
+                        <button width="1" height="30.5" alignment="left" verticalAlignment="bottom" title="Start" id="Oac-Qb-HcR">
+                            <color key="titleColor" red="1" green="0.97113048280000003" blue="0.97891326150000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.15686274510000001" green="0.53333333329999999" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="start_button" destination="Q54-ZR-Vno" id="zNe-Wg-YB1"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="pogressLabel" destination="Vtk-JK-7iH" id="Y3Y-UK-ikQ"/>
+                        <outlet property="progressionBar" destination="wu5-sG-7vr" id="cVP-Nw-ki9"/>
+                        <outlet property="readyLabel" destination="2Uw-0E-SwB" id="9Ta-iR-l9W"/>
+                        <outlet property="startButton" destination="Oac-Qb-HcR" id="mkY-dF-2eP"/>
+                    </connections>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="553" y="1001"/>
+            <point key="canvasLocation" x="12" y="1070"/>
+        </scene>
+        <!--Sixty Controller-->
+        <scene sceneID="KfY-Hp-Uwz">
+            <objects>
+                <controller id="AYa-wr-fKn" customClass="SixtyController" customModule="repetitions_timer_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Ready...." id="I7X-GC-cp6" userLabel="fortyRest">
+                            <color key="textColor" red="0.047058823530000002" green="1" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleTitle1"/>
+                        </label>
+                        <imageView width="90" height="90" alignment="center" image="sixty60" id="CWZ-zC-PZ8">
+                            <variation key="device=watch38mm" height="90" width="90"/>
+                            <variation key="device=watch42mm" height="115" width="115"/>
+                        </imageView>
+                        <button width="1" height="30.5" alignment="left" verticalAlignment="bottom" title="Start" id="1hz-i2-Kk7">
+                            <color key="titleColor" red="1" green="0.97113048280000003" blue="0.97891326150000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.15686274510000001" green="0.53333333329999999" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="start_button" destination="AYa-wr-fKn" id="pfb-WG-Oc3"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="imageLabel" destination="CWZ-zC-PZ8" id="KlR-3w-bRa"/>
+                        <outlet property="readyLabel" destination="I7X-GC-cp6" id="zm4-ds-sQb"/>
+                        <outlet property="startButton" destination="1hz-i2-Kk7" id="RcP-X3-P7A"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="235" y="732"/>
+        </scene>
+        <!--Fortyfive Controller-->
+        <scene sceneID="56B-eU-quJ">
+            <objects>
+                <controller id="Lci-EL-MgW" customClass="FortyfiveController" customModule="repetitions_timer_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Ready...." id="voW-nU-JM1" userLabel="fortyRest">
+                            <color key="textColor" red="0.047058823530000002" green="1" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleTitle1"/>
+                        </label>
+                        <imageView width="90" height="90" alignment="center" image="forty45" id="K7X-tR-NPG">
+                            <variation key="device=watch38mm" height="90" width="90"/>
+                            <variation key="device=watch42mm" height="115" width="115"/>
+                        </imageView>
+                        <button width="1" height="30.5" alignment="left" verticalAlignment="bottom" title="Start" id="yd7-BD-grn">
+                            <color key="titleColor" red="1" green="0.97113048280000003" blue="0.97891326150000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.15686274510000001" green="0.53333333329999999" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="start_button" destination="hxC-Mw-htF" id="DBf-NX-9zC"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="imageLabel" destination="K7X-tR-NPG" id="FMR-ax-xDr"/>
+                        <outlet property="readyLabel" destination="voW-nU-JM1" id="K6F-DB-uHb"/>
+                        <outlet property="startButton" destination="yd7-BD-grn" id="8vT-Af-VHv"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="524" y="719"/>
+        </scene>
+        <!--Thirty Controller-->
+        <scene sceneID="rgp-DK-BZw">
+            <objects>
+                <controller alwaysBounce="YES" id="hxC-Mw-htF" customClass="ThirtyController" customModule="repetitions_timer_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Ready...." id="Wi0-6k-pSX" userLabel="Rest">
+                            <color key="textColor" red="0.047058823529411764" green="1" blue="0.21568627450980393" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleTitle1"/>
+                        </label>
+                        <button width="1" height="30.5" alignment="left" verticalAlignment="bottom" title="Start" id="Ebc-0A-PSt">
+                            <color key="titleColor" red="1" green="0.97113048280000003" blue="0.97891326150000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.15686274509803921" green="0.53333333333333333" blue="0.38039215686274508" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="start_button" destination="hxC-Mw-htF" id="iN3-6F-iK9"/>
+                            </connections>
+                        </button>
+                        <imageView width="90" height="90" alignment="center" image="second30" id="ySO-RW-jUt">
+                            <variation key="device=watch38mm" height="90" width="90"/>
+                            <variation key="device=watch42mm" height="115" width="115"/>
+                        </imageView>
+                    </items>
+                    <connections>
+                        <outlet property="restLabel" destination="Wi0-6k-pSX" id="9Oi-gP-F44"/>
+                        <outlet property="second_image" destination="ySO-RW-jUt" id="FXG-Eb-6XJ"/>
+                        <outlet property="startButton" destination="Ebc-0A-PSt" id="hMY-LB-lZJ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="506" y="345"/>
         </scene>
     </scenes>
 </document>
