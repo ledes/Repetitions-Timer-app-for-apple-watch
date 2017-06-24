@@ -2,6 +2,9 @@
 
 Apple Watch app to control the time of your repetitions while you exercise.
 
+####Preview
+[![Presentation](http://imgur.com/a/duojj)](https://vimeo.com/222986219)
+
 ####Tools and Languages:
   * Swift
   * Xcode 7
