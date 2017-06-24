@@ -4,7 +4,7 @@ Apple Watch app to control the time of your repetitions while you exercise.
 
 #### Preview
 
-[![Presentation](http://imgur.com/mLgoZr2)](https://vimeo.com/222986219)
+[![Presentation](http://imgur.com/mLgoZr2.png)](https://vimeo.com/222986219)
 
 #### Tools and Languages:
 
