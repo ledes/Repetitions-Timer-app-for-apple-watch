@@ -3,6 +3,7 @@
 Apple Watch app to control the time of your repetitions while you exercise.
 
 #### Preview
+Click on the image to watch the app in the Xcode simulator.
 
 [![Presentation](http://imgur.com/mLgoZr2.png)](https://vimeo.com/222986219)
 
