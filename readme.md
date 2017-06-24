@@ -2,14 +2,17 @@
 
 Apple Watch app to control the time of your repetitions while you exercise.
 
-####Preview
-[![Presentation](http://imgur.com/a/duojj)](https://vimeo.com/222986219)
+#### Preview
 
-####Tools and Languages:
+[![Presentation](http://imgur.com/mLgoZr2)](https://vimeo.com/222986219)
+
+#### Tools and Languages:
+
   * Swift
   * Xcode 7
 
-####Features:
+#### Features:
+
   * User is able to set a time for a countdown
   * Once the countdown reaches 0 the Apple Watch vibrates
   * The user has default countdowns
@@ -23,9 +26,10 @@ Apple Watch app to control the time of your repetitions while you exercise.
     3. Big Start button
      
 
-####Dream features:
+#### Dream features:
+
  * Setting button. User is able to change the value of the duration of the breaks and disable pulse measurement 
- * 
+
 ### Wireframing
 
 ![Image](http://i.imgur.com/WqDVtTz.jpg)
